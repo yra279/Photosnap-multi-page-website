@@ -1,0 +1,16 @@
+.container {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-left: 15px;
+    transition: 0.5s;
+    margin-bottom: -2.5px;
+}
+
+.container:hover {
+    .arrow {
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,114 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 435px;
+
+    padding: 50px 200px 0px 200px;
+
+    background-color: hsl(0, 0%, 0%);
+    width: 1040px;
+    height: 200px;
+
+    margin-left: -8px;
+    margin-bottom: -8px;
+}
+
+.footer__logoAndContacts {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    gap: 100px;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    div {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.footer_iconFB {
+    background-image: url('http://localhost:3000/icons/white-FB.svg');
+    transition: 0.3s;
+
+    &:hover {
+        background-image: url('http://localhost:3000/icons/facebook.svg');
+    }
+}
+
+.footer_iconPin {
+    background-image: url('http://localhost:3000/icons/white-Pin.svg');
+    transition: 0.3s;
+
+    &:hover {
+        background-image: url('http://localhost:3000/icons/pinterest.svg');
+    }
+}
+
+.footer_iconTW {
+    background-image: url('http://localhost:3000/icons/white-TW.svg');
+    transition: 0.3s;
+
+    &:hover {
+        background-image: url('http://localhost:3000/icons/twitter.svg');
+    }
+}
+
+.footer_iconYT {
+    background-image: url('http://localhost:3000/icons/white-YT.svg');
+    transition: 0.3s;
+
+    &:hover {
+        background-image: url('http://localhost:3000/icons/youtube.svg');
+    }
+}
+
+.footer_iconInsta {
+    background-image: url('http://localhost:3000/icons/white-Insta.svg');
+    transition: 0.3s;
+
+    &:hover {
+        background-image: url('http://localhost:3000/icons/instagram.svg');
+    }
+}
+
+.footer__boxLinkPages {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    gap: 22.5px;
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: #bbbbbb;
+    }
+}
+
+.footer__description {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+
+    p {
+        color: #bbbbbb;
+    }
+
+    a {
+        margin-left: -5px;
+    }
+}
+
+.footer__boxLeft {
+    display: flex;
+    gap: 50px;
+}
