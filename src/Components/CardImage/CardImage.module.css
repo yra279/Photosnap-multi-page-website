@@ -30,9 +30,8 @@
 .bg {
     background-color: rgba(0, 0, 0, 0.279);
 
-    height: 150px;
+    height: 200px;
     width: 360px;
-    padding-top: 350px;
 
     & > div {
         margin-left: 25px;

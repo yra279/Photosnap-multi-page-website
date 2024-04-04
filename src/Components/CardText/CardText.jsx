@@ -10,7 +10,7 @@ export default function CardText({ title, text, textArrow, color }) {
             <div className={styles.text}>
                 {text}
             </div>
-            <div style={{marginLeft: '-50px'}}>
+            <div>
                 <LinkArrow text={textArrow} color={color === 'black' ? 'white' : 'black'} />
             </div>
         </div>

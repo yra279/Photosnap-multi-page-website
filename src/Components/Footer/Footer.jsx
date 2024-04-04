@@ -1,8 +1,11 @@
 import style from './Footer.module.css';
 import LinkArrow from '../LinkArrow/LinkArrow';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Footer() {
+    const navigate = useNavigate();
+
     return (
         <footer className={style.footer}>
             <div className={style.footer__boxLeft}>
@@ -18,8 +21,8 @@ export default function Footer() {
                 </div>
 
                 <div className={style.footer__boxLinkPages}>
-                    <a href="/">HOME</a>
-                    <a href="/">STORIES</a>
+                    <a href="/" onClick={() => navigate('/', { replace: false })}>HOME</a>
+                    <a href="/" onClick={() => navigate('stories', { replace: false })}>STORIES</a>
                     <a href="/">FEATURES</a>
                     <a href="/">PRICING</a>
                 </div>

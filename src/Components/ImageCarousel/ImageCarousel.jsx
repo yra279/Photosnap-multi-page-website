@@ -5,11 +5,12 @@ export default function ImageCarousel({ listInfoCards }) {
     return (
         <section className={styles.containerImageCarousel}>
             {
-                listInfoCards.map(({ linkImage, title, nameAuthor }) => (
+                listInfoCards.map(({ linkImage, title, nameAuthor, date=undefined }) => (
                     <CardImage
                         linkImage={linkImage}
                         title={title}
                         nameAutor={nameAuthor}
+                        date={date}
                     />
                 ))
             }
